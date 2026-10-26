@@ -19,3 +19,9 @@ This project is the result: a lightweight, single-page web app built to replace 
 3. Create a `.env` file in the root folder and add your API key: `CSFLOAT_API_KEY=your_key_here`
 4. Start the backend server: `python -m uvicorn main:app --reload`
 5. Double-click `index.html` to open the dashboard in your browser.
+
+## How to get a CSFloat API Key
+1. Log in to [CSFloat.com](https://csfloat.com) using your Steam account.
+2. Click on your profile picture in the top right and select **Settings**.
+3. Scroll down to the **Developer** section.
+4. Click **Generate API Key** and copy the resulting string. Keep this secure and never share it publicly.
